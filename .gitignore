@@ -1,0 +1,15 @@
+# Old Git history backups
+**/.git-backup/
+
+# Dependencies
+**/vendor/
+**/node_modules/
+
+# Local environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local SQLite databases
+**/database/*.sqlite
+**/database/*.sqlite-*
